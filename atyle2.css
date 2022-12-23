@@ -56,6 +56,7 @@ div#container::before{
     display: flex;
     justify-content: center;
     padding: 1rem;
+    color: transparent;
   }
   div>audio{
     width: 80%;
@@ -174,6 +175,16 @@ div#container::before{
       margin-top: 2rem;
     }
     .namediv{
-      font-size: 2;
+      font-size: 2rem;
+    }
+    div#container::before{
+      background: url('bgpic2.jpg') no-repeat center center/cover;
+    }
+    #sec{
+            height: 90vh;
+    }
+    #container{
+      justify-content: space-between;
+      height: 95%;
     }
   }
